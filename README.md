@@ -16,3 +16,24 @@ Si on se connecte avec le compte **Cleese** / **Sacré Graal!**, il n'y a aucun 
 
 Le traducteur ne doit être affiché que pour les comptes utilisateurs authentifiés.
 
+
+
+
+## Rajouts persos
+
+## Activation env virtuel api 
+.\venv\Scripts\activate
+ (à PS C:\Users\User\Downloads\CoursAlternance\CASPRATIQUE\py-traducteur\api_traducteur>)
+
+## docs et commande pour api
+
+python api.py dans : PS C:\Users\User\Downloads\CoursAlternance\CASPRATIQUE\py-traducteur\api_traducteur\src>
+
+ai mis sur le port 8083 a cause de conflits donc , et jai donc modifié dans parametres.py en consequence !
+ http://127.0.0.1:8083/docs
+
+appli commande : PS C:\Users\User\Downloads\CoursAlternance\CASPRATIQUE\py-traducteur\web_traducteur\src> streamlit run app.py
+
+http://localhost:8501/
+
+DEUX venv differents !

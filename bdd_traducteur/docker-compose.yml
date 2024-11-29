@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     build:
@@ -10,13 +8,17 @@ services:
       - ./bdd:/var/lib/mysql
     ports:
       - "3307:3306"
-      
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: traducteur
+      MYSQL_USER: traducteur
+      MYSQL_PASSWORD: traducteur
+
   adminer:
     image: adminer
     restart: always
     ports:
-      - 8081:8080
+      - 8087:8080
 
 volumes:
   db_data:
-
